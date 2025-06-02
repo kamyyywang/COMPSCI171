@@ -1,0 +1,13 @@
+{
+  "base_url": "/user/ziqinw2/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 322,
+  "port": 8888,
+  "root_dir": "/home/ics-home",
+  "secure": false,
+  "sock": "",
+  "token": "5f592d2007ff42cdb395c22217867b3c",
+  "url": "http://ics46-ziqinw2:8888/user/ziqinw2/",
+  "version": "2.14.2"
+}

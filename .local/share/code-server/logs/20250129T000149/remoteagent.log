@@ -1,0 +1,11 @@
+2025-01-29 00:01:49.239 [info] 
+
+
+
+
+2025-01-29 00:01:49.728 [info] Extension host agent started.
+2025-01-29 00:01:51.329 [info] [127.0.0.1][f71fc98b][ManagementConnection] New connection established.
+2025-01-29 00:01:52.038 [info] [127.0.0.1][f1bd981c][ExtensionHostConnection] New connection established.
+2025-01-29 00:01:52.220 [info] [127.0.0.1][f1bd981c][ExtensionHostConnection] <501> Launched Extension Host Process.
+2025-01-29 00:01:58.094 [info] [127.0.0.1][f71fc98b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-29 00:01:58.151 [info] [127.0.0.1][f1bd981c][ExtensionHostConnection] <501> Extension Host Process exited with code: 0, signal: null.

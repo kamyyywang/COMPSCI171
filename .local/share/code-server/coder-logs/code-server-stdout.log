@@ -1,0 +1,90 @@
+[2025-01-12T00:31:39.074Z] info  code-server 4.91.1 1962f48b7f71772dc2c060dbaa5a6b4c0792a549
+[2025-01-12T00:31:39.077Z] info  Using user-data-dir /home/ziqinw2/.local/share/code-server
+[2025-01-12T00:31:39.112Z] info  Using config file /home/ziqinw2/.config/code-server/config.yaml
+[2025-01-12T00:31:39.113Z] info  HTTP server listening on http://127.0.0.1:50645/
+[2025-01-12T00:31:39.113Z] info    - Authentication is disabled
+[2025-01-12T00:31:39.113Z] info    - Not serving HTTPS
+[2025-01-12T00:31:39.113Z] info  Session server listening on /home/ziqinw2/.local/share/code-server/code-server-ipc.sock
+[00:31:40] 
+
+
+
+
+[00:31:41] Extension host agent started.
+[00:31:41] Started initializing default profile extensions in extensions installation folder. file:///home/ziqinw2/.local/share/code-server/extensions
+[00:31:41] Completed initializing default profile extensions in extensions installation folder. file:///home/ziqinw2/.local/share/code-server/extensions
+[00:31:44] [127.0.0.1][fab8ab94][ManagementConnection] New connection established.
+[00:31:45] [127.0.0.1][a706b7fa][ExtensionHostConnection] New connection established.
+[00:31:45] [127.0.0.1][a706b7fa][ExtensionHostConnection] <801> Launched Extension Host Process.
+[00:32:49] [127.0.0.1][fab8ab94][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[00:32:49] [127.0.0.1][a706b7fa][ExtensionHostConnection] <801> Extension Host Process exited with code: 0, signal: null.
+[00:32:51] [127.0.0.1][2d6f1887][ManagementConnection] New connection established.
+[00:32:52] [127.0.0.1][026f4659][ExtensionHostConnection] New connection established.
+[00:32:52] [127.0.0.1][026f4659][ExtensionHostConnection] <927> Launched Extension Host Process.
+[01:22:07] [127.0.0.1][2d6f1887][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[04:21:41] [127.0.0.1][026f4659][ExtensionHostConnection] <927> Extension Host Process exited with code: 0, signal: null.
+[04:22:15] [127.0.0.1][2d6f1887][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[17:33:00] [127.0.0.1][a18fcd69][ManagementConnection] New connection established.
+[17:33:01] [127.0.0.1][cec93990][ExtensionHostConnection] New connection established.
+[17:33:01] [127.0.0.1][cec93990][ExtensionHostConnection] <22600> Launched Extension Host Process.
+[19:05:20] [127.0.0.1][a18fcd69][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[19:11:55] [127.0.0.1][a18fcd69][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[19:11:55] [127.0.0.1][cec93990][ExtensionHostConnection] The client has reconnected.
+[19:11:56] [127.0.0.1][a18fcd69][ManagementConnection] The client has reconnected.
+[20:28:01] [127.0.0.1][a18fcd69][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[20:43:05] [127.0.0.1][a18fcd69][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[20:43:05] [127.0.0.1][cec93990][ExtensionHostConnection] The client has reconnected.
+[20:43:05] [127.0.0.1][a18fcd69][ManagementConnection] The client has reconnected.
+[20:59:38] [127.0.0.1][a18fcd69][ManagementConnection] The client has reconnected.
+[21:04:38] [127.0.0.1][cec93990][ExtensionHostConnection] <22600> Extension Host Process exited with code: 0, signal: null.
+[21:05:50] [127.0.0.1][5cc6905e][ExtensionHostConnection] New connection established.
+[21:05:50] [127.0.0.1][5cc6905e][ExtensionHostConnection] <41392> Launched Extension Host Process.
+[22:07:47] [127.0.0.1][a18fcd69][ManagementConnection] The client has reconnected.
+[22:07:47] [127.0.0.1][5cc6905e][ExtensionHostConnection] The client has reconnected.
+[22:15:40] [127.0.0.1][5cc6905e][ExtensionHostConnection] The client has reconnected.
+[22:15:40] [127.0.0.1][a18fcd69][ManagementConnection] The client has reconnected.
+[22:20:03] [127.0.0.1][5cc6905e][ExtensionHostConnection] The client has reconnected.
+[23:24:47] [127.0.0.1][a18fcd69][ManagementConnection] The client has reconnected.
+[23:24:52] [127.0.0.1][5cc6905e][ExtensionHostConnection] The client has reconnected.
+[23:33:33] [127.0.0.1][5cc6905e][ExtensionHostConnection] The client has reconnected.
+[23:33:35] [127.0.0.1][a18fcd69][ManagementConnection] The client has reconnected.
+[00:56:38] [127.0.0.1][5cc6905e][ExtensionHostConnection] The client has reconnected.
+[00:56:38] [127.0.0.1][a18fcd69][ManagementConnection] The client has reconnected.
+[01:12:58] [127.0.0.1][a18fcd69][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[04:12:35] [127.0.0.1][5cc6905e][ExtensionHostConnection] <41392> Extension Host Process exited with code: 0, signal: null.
+[04:13:07] [127.0.0.1][a18fcd69][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2025-01-29T00:01:48.507Z] info  code-server 4.91.1 1962f48b7f71772dc2c060dbaa5a6b4c0792a549
+[2025-01-29T00:01:48.509Z] info  Using user-data-dir /home/ziqinw2/.local/share/code-server
+[2025-01-29T00:01:48.529Z] info  Using config file /home/ziqinw2/.config/code-server/config.yaml
+[2025-01-29T00:01:48.530Z] info  HTTP server listening on http://127.0.0.1:50291/
+[2025-01-29T00:01:48.530Z] info    - Authentication is disabled
+[2025-01-29T00:01:48.530Z] info    - Not serving HTTPS
+[2025-01-29T00:01:48.530Z] info  Session server listening on /home/ziqinw2/.local/share/code-server/code-server-ipc.sock
+[00:01:49] 
+
+
+
+
+[00:01:49] Extension host agent started.
+[00:01:51] [127.0.0.1][f71fc98b][ManagementConnection] New connection established.
+[00:01:52] [127.0.0.1][f1bd981c][ExtensionHostConnection] New connection established.
+[00:01:52] [127.0.0.1][f1bd981c][ExtensionHostConnection] <501> Launched Extension Host Process.
+[00:01:58] [127.0.0.1][f71fc98b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[00:01:58] [127.0.0.1][f1bd981c][ExtensionHostConnection] <501> Extension Host Process exited with code: 0, signal: null.
+[2025-06-02T18:50:00.142Z] info  code-server 4.95.3 b0c935a6e0742adde9f7a5f6e5816553ee0e7ffb
+[2025-06-02T18:50:00.143Z] info  Using user-data-dir /home/ziqinw2/.local/share/code-server
+[2025-06-02T18:50:00.162Z] info  Using config file /home/ziqinw2/.config/code-server/config.yaml
+[2025-06-02T18:50:00.162Z] info  HTTP server listening on http://127.0.0.1:39323/
+[2025-06-02T18:50:00.162Z] info    - Authentication is disabled
+[2025-06-02T18:50:00.162Z] info    - Not serving HTTPS
+[2025-06-02T18:50:00.162Z] info  Session server listening on /home/ziqinw2/.local/share/code-server/code-server-ipc.sock
+[18:50:00] 
+
+
+
+
+[18:50:01] Extension host agent started.
+[18:50:02] [127.0.0.1][b76bfdfb][ManagementConnection] New connection established.
+[18:50:03] [127.0.0.1][3dbe05c7][ExtensionHostConnection] New connection established.
+[18:50:03] [127.0.0.1][3dbe05c7][ExtensionHostConnection] <3096> Launched Extension Host Process.
+[18:50:23] [127.0.0.1][b76bfdfb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

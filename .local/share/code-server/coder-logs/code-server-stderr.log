@@ -1,0 +1,20 @@
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/opt/code-server/lib/vscode/out/bootstrap.js:1:471)
+    at process.emit (node:events:530:35)
+[00:31:41] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/opt/code-server/lib/vscode/out/vs/server/node/server.main.js:193:6389)
+    at process.emit (node:events:530:35)
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[21:20:44] [127.0.0.1][026f4659][ExtensionHostConnection] Unknown reconnection token (seen before).
+[21:20:45] [127.0.0.1][2d6f1887][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[21:05:28] [127.0.0.1][cec93990][ExtensionHostConnection] Unknown reconnection token (seen before).
+[21:05:49] [127.0.0.1][cec93990][ExtensionHostConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
