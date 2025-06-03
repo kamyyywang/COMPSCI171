@@ -1,38 +1,36 @@
 import heapq
-from collections import deque
+from heuristics import heuristic
 
-def bfs_search(grid):
-    start, goal = grid.start, grid.goal
-    frontier = deque([start])
+def search_algorithm(grid):
+    start =  grid.start
+    goal = grid.goal
+    open_set = []
+    heapq.heappush(open_set, (heuristic(start, goal), start))
     came_from = {start: None}
+    g_score = {start: 0}
     nodes_expanded = 0
-
-    while frontier:
-        current = frontier.popleft()
-        nodes_expanded += 1
+    while open_set:
+        current_priority, current = heapq.heappop(open_set)
 
         if current == goal:
             break
-
+        nodes_expanded += 1
+        
         for neighbor in grid.neighbors(current):
-            if neighbor not in came_from:
-                frontier.append(neighbor)
+            tentative_g_score = g_score[current] + grid.cost(neighbor)
+
+            if neighbor not in g_score or tentative_g_score < g_score[neighbor]:
                 came_from[neighbor] = current
-
-    # Reconstruct path
-    if goal not in came_from:
-        return [], float('inf'), nodes_expanded
-
+                g_score[neighbor] = tentative_g_score
+                f_score = tentative_g_score + heuristic(neighbor, goal)
+                heapq.heappush(open_set, (f_score, neighbor))
+                
     path = []
-    cur = goal
-    while cur:
-        path.append(cur)
-        cur = came_from[cur]
+    current = goal
+    if current not in came_from:
+        return [], float('inf'), nodes_expanded
+    while current:
+        path.append(current)
+        current = came_from[current]
     path.reverse()
-
-    cost = sum(grid.cost(p) for p in path)
-    return path, cost, nodes_expanded
-
-
-
-search_algorithm = bfs_search
+    return path, g_score[goal], nodes_expanded

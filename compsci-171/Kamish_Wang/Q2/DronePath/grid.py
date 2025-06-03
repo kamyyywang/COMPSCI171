@@ -10,7 +10,7 @@ class Grid:
                 for c, char in enumerate(line.strip()):
                     if char == 'S':
                         self.start = (r, c)
-                        row.append(1)
+                        row.append(0)
                     elif char == 'G':
                         self.goal = (r, c)
                         row.append(1)

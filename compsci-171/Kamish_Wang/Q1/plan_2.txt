@@ -1,0 +1,8 @@
+(move cook2 g6 g5)
+(pickup cook2 ingredient3 ctr5 g5)
+(drop-into-pot cook2 ingredient3 pot1 ctr1 g5)
+(pickup cook2 ingredient1 ctr3 g5)
+(drop-into-pot cook2 ingredient1 pot1 ctr1 g5)
+(move cook1 g1 g4)
+(pickup cook1 ingredient2 ctr4 g4)
+(drop-into-pot cook1 ingredient2 pot1 ctr1 g4)
